@@ -16,21 +16,70 @@
     <!-- Favicon Link -->
     <link rel="icon" href="https://i.ibb.co/d0W7TM9/image.png" />
 
+
     <!-- Font Awesome CDN Link -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
 
+    <!-- Iconify Icon Link -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
     <!-- jQuery CDN Link -->
     <script
-      src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
-      integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
-    <div class="container"></div>
+    <div class="container">
+        <div class="menu-btn">
+            <iconify-icon icon="pepicons-pop:menu"></iconify-icon>
+        </div>
+      <div class="sidebar">
+        <div class="close-btn">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="menu">
+          <div class="item">
+            <a href="#"><i class="fa-solid fa-laptop"></i>dashboard</a>
+          </div>
+          <div class="item">
+            <a class="sub-btn">
+              <i class="fa-solid fa-table"></i>
+              table
+              <i class="fa-solid fa-angle-right dropdown"></i>
+            </a>
+            <div class="sub-menu">
+              <div class="sub-item"><a href="">sub-menu item 01</a></div>
+              <div class="sub-item"><a href="">sub-menu item 02</a></div>
+              <div class="sub-item"><a href="">sub-menu item 03</a></div>
+            </div>
+          </div>
+          <div class="item">
+            <a href="#"><i class="fa-solid fa-list-ul"></i>forms</a>
+          </div>
+          <div class="item">
+            <a class="sub-btn">
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+              settings<i class="fa-solid fa-angle-right dropdown"></i>
+            </a>
+            <div class="sub-menu">
+              <div class="sub-item"><a href="">sub-menu item 01</a></div>
+              <div class="sub-item"><a href="">sub-menu item 02</a></div>
+            </div>
+          </div>
+          <div class="item">
+            <a href="#"><i class="fa-solid fa-circle-info"></i>about</a>
+          </div>
+        </div>
+      </div>
+      <div class="title-block">
+        <h1>The Discovery of Galaxies</h1>
+      </div>
+    </div>
 
     <!-- jQuery Script File  -->
     <script src="script.js"></script>

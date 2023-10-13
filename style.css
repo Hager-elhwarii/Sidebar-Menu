@@ -13,6 +13,7 @@
 body {
   background-image: url("https://w.forfun.com/fetch/ec/ec1948fdd924fb8f5df3fd31db5e75b8.jpeg");
   background-repeat: no-repeat;
+  background-size: cover;
   object-fit: cover;
   background-position: center center;
   height: 100vh;
@@ -23,3 +24,115 @@ body {
 /*===================
   ===================
   ===================*/
+
+.container {
+    height: 100vh;
+}
+.sidebar {
+    background-color: rgba(255,255,255,0.1);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    height: 100%;
+    width: 100%;
+    max-width: 300px;
+    position: fixed;
+    top: 0;
+    left: -40rem;
+    overflow-y: hidden;
+    transition: all 0.7s;
+    transition-property: left;
+}
+.sidebar.active {
+    left: 0;
+}
+.menu {
+    width: 100%;
+    margin-top: 8rem;
+}
+.menu .item {
+    cursor: pointer;
+    position: relative;
+}
+.menu .item a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.9rem;
+    text-transform: capitalize;
+    line-height: 6rem;
+    padding: 0.4rem 3rem;
+    transition: all 0.3s ease;
+    
+}
+.menu .item a:hover ,.menu .item .sub-menu a:hover {
+    background-color: #705194;
+}
+.menu .item a i {
+    margin-right: 1.4rem;
+}
+.sub-menu {
+    display: none;
+}
+.menu .item .sub-btn .dropdown {
+    position: absolute;
+    right: 0;
+    margin: 2rem;
+    font-size: 1.5rem !important;
+    transition: all 0.9 ;
+
+}
+.menu .item .sub-menu a {
+    display: block;
+    background-color: rgba(255,255,255,0.1);
+    font-size: 1.7rem !important;
+    padding-left: 6.8rem;
+    line-height: 4.4rem !important;
+    text-transform: none !important;
+}
+.menu .item .sub-menu a::first-letter {
+    text-transform: capitalize !important;
+}
+.rotate {
+    transform: rotate(90deg);
+}
+.close-btn {
+    position: absolute;
+    right: 0;
+    color: #fff;
+    font-size: 2.2rem;
+    margin: 2.4rem;
+    cursor: pointer;
+}
+.menu-btn {
+    position: absolute;
+    font-size: 3rem;
+    color: #fff;
+    margin: 2rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.title-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 3.8rem;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+}
+@media (max-width: 1430px){
+    .title-block h1{
+      font-size: 3.7rem;
+    }
+   }
+   @media (max-width: 1014px){
+    .title-block h1{
+      font-size: 3rem;
+    }
+    
+   }
+@media (max-width: 950px){
+    .title-block h1{
+      font-size: 2rem;
+    }
+   } 
