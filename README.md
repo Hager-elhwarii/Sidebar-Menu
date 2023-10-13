@@ -2,8 +2,9 @@
 <a name="readme-top"></a>
 - Expandable and collapsible sidebar menu with dropdown sub-menus using HTML, CSS, and `JQuery`.
 
-## :camera_flash: Demo GIF
-![image](https://github.com/Hager-elhwarii/Sidebar-Menu/assets/80959882/a28e4690-f635-41cc-8ae8-2f3b86c7946b)
+## :camera_flash: Demo Screenshoot
+![image](https://github.com/Hager-elhwarii/Sidebar-Menu/assets/80959882/c14d472f-2792-4b6b-8dd0-ce9f0c0af109)
+
 
 ## 🚀 Deployment 
 - [Demo Link](https://sidebar-menu-dottie.netlify.app/)
