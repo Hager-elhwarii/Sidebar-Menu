@@ -3,7 +3,7 @@
 - Expandable and collapsible sidebar menu with dropdown sub-menus using HTML, CSS, and `JQuery`.
 
 ## :camera_flash: Demo Screenshoot
-![image](https://github.com/Hager-elhwarii/Sidebar-Menu/assets/80959882/e810ccca-3126-4b38-a961-db9b0618f8e5)
+![image](https://github.com/Hager-elhwarii/Sidebar-Menu/assets/80959882/f8df94d6-4e05-4c36-9c75-fc4e578605bd)
 
 ## 🚀 Deployment 
 - [Demo Link](https://sidebar-menu-dottie.netlify.app/)
