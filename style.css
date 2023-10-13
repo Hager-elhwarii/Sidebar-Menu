@@ -111,28 +111,3 @@ body {
     cursor: pointer;
     transition: all 0.3s;
 }
-.title-block {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    font-size: 3.8rem;
-    color: rgba(255, 255, 255, 0.9);
-    text-align: center;
-}
-@media (max-width: 1430px){
-    .title-block h1{
-      font-size: 3.7rem;
-    }
-   }
-   @media (max-width: 1014px){
-    .title-block h1{
-      font-size: 3rem;
-    }
-    
-   }
-@media (max-width: 950px){
-    .title-block h1{
-      font-size: 2rem;
-    }
-   } 
